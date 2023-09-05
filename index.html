@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="EN ">
+<head>
+<meta charset="UTF-8">
+<title>I AM COOL I AM FUN</title>
+<meta name="author" content="Márcia Lopes (up20180815)">
+<meta name="viewport" content="max-width=device-max-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.typekit.net/mqq0law.css">
+<link rel="stylesheet" href="./css.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+<div class="fundo">
+  <header> 
+    <!-- MENU -->
+    <div id="topo">
+      <nav>
+        <ul>
+          <li><a href="#cool">cool & fun</a></li>
+          <li><a href="#márcialopes"> márcia lopes</a></li>
+          <li><a href="#speed date"> speed date</a></li>
+          <li><a href="#hire me"> hire me </a></li>
+          <li><a href="#FAQ'S">FAQ'S</a></li>
+          <li><a href="#contactos">contact me</a></li>
+        </ul>
+      </nav>
+      <div id="linha"> </div>
+      <div id="carinha"> <a href="#cool"> <img src="./imagens/1-01.png"
+              alt="I AM COOL I AM FUN black and white smiley face" width="25" height="25"> </a> </div>
+    </div>
+  </header>
+  
+  <!-- INICIO -->
+  
+  <article id="conteudo"> 
+    
+    <!-- PART 1 -->
+    
+    <section class="cool">
+      <p id="ENTRADA"> I AM <span id="elipse"> COOL </span> <br>
+        I <span style="text-decoration: underline 5px solid black;">AM</span> <span id="poli"> FUN </span> </p>
+    </section>
+    
+    <!-- PART 2 -->
+    
+    <section id="marcialopes">
+      <p class="apresentacao"> Hey. My name is Márcia, I'm 21, I'm a Virgo, according to my zodiac sign, I'm a very
+        critical, perfectionist, stressed-out person, and that's pretty accurate. <br>
+        I like to think of myself as a cool
+        and fun woman, although my boyfriend disagrees.
+        I'm studying Communication Design at the Faculty of Fine Arts of Porto and, to be honest, college sucks. I
+        don't like most of my classes and I don’t know half of my classmates.
+        I used to work as a cashier and I hated it. Now I’m working as a freelancer and I babysit my 2-year-old
+        cousin.</p>
+      <p class="know"> Know more below.</p>
+    </section>
+    
+    <!-- PART 3 -->
+    
+    <section id="speed date">
+      <h1> SPEED DATE </h1>
+      <button type="button" class="fases">I. RANDOM FACTS</button>
+      <div class="texto_sd">
+        <p> I love driving but I hate parking. <br>
+          I organize my playlists by seasons. <br>
+          I’m super awkward when meeting new people. <br>
+          I like to talk. A lot. Especially about myself. <br>
+          I'm dyslexic. <br>
+          I like people that I hate.<br>
+          I love going on walks.<br>
+          I know what I'm doing. <br>
+          Love singing in my car alone. <br>
+          People make me stressed. <br>
+          I’m always stressed. <br>
+          I love being outside.<br>
+          I’m very cheap. <br>
+          I only have 2 real friends. <br>
+          I practice yoga. <br>
+          Love the beach.<br>
+          Love going on bicicle rides. <br>
+          I love second-hand things. <br>
+          I’m obsessed with the British royal family. <br>
+          I don't know what I'am doing. </p>
+      </div>
+      <button type="button" class="fases">II. THE FANS</button>
+      <div class="texto_sd">
+        <p> 1. The 2 year old cousin <br>
+          2. The boyfriend <br>
+          3. Max (the dog) <br>
+          4. Marquês (the dog)<br>
+          5. Baguera(the dog) </p>
+      </div>
+      <button type="button" class="fases">III. FAVS AND BABES</button>
+      <div class="texto_sd">
+        <p> The Strokes (The New Abnormal is my favourite album)<br>
+          Princess Diana<br>
+          António Variações <br>
+          The 80’s<br>
+          Fado<br>
+          Kiss me more by Doja Cat and SZA is on repeat.<br>
+          Podcasts<br>
+          Nature <br>
+          Beer<br>
+          Lisbon<br>
+          The Office<br>
+          Sun <br>
+          Friends </p>
+      </div>
+      <p id="email_me"> * email me your anwsers </p>
+      <script>
+          var coll = document.getElementsByClassName("fases");
+          var i;
+
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }
+        </script> 
+    </section>
+    
+    <!-- PART 4 -->
+    <section>
+      <div class="CV">
+        <div class="CV_esq">
+          <figure> <img src="./imagens/2-01.png" alt="A very close up photo of my face" width="330px" height="330px"
+                style="padding-bottom: 80px"> </figure>
+          <p class="CV_about">MÁRCIA LOPES </p>
+          <p class="CV_about"> PORTUGUESE <br>
+            PORTO, PT </p>
+          <p class="CV_about" style="text-decoration: underline 2px; ">COMMUNICATION DESIGN </p>
+          <p class="CV_about">FACULTY OF FINE ARTS OF PORTO </p>
+        </div>
+        <div class="CV_dir">
+          <h3> CV </h3>
+          <h4 style="padding-top: 0"> WORK EXPERIENCE </h4>
+          <p class="CV_sub"> INTERNSHIP – QUERCUS </p>
+          <p class="duracao"> SEP 2016 - JUN 2017 </p>
+            
+          <ul class="CV_lista">
+            <li> Design and Development of Quercus newspaper; </li>
+            <li>Layout composition; Print. </li>
+          </ul>
+          <p class="CV_sub"> FREELANCER – PORTO EDITORA </p>
+            <p class="duracao"> FEB 2020 - CURRENTLY  </p>
+            
+          <ul class="CV_lista">
+            <li>Pagination of school books, activity notebooks, ...);</li>
+            <li>Layout composition and review;</li>
+            <li> Design of graphic elements. </li>
+          </ul>
+            
+          <p class="CV_sub"> ILLUSTRATOR – CINECLUB </p>
+        <p class="duracao"> MAY 2020  </p>
+          <ul class="CV_lista">
+            <li> llustrations for the cinema hall sheets.</li>
+          </ul>
+            
+          <p class="CV_sub"> SHOP CASHIER – CONTINENTE </p>
+            <p class="duracao"> JUN 2020 - SEP 2020 </p>
+            
+          <h4 style="padding-top: 30px;"> SKILLS </h4>
+          <p class="CV_texto"> MS Office; Adobe Photoshop; Adobe Indesign; Adobe Illustrator; Adobe Premiere; Adobe
+            Dreamweaver; HTML; CSS; Blender.</p>
+            
+          
+            <h4 style="padding-top: 30px;"> LANGUAGE(S)  <span id="in"> ENGLISH </span></h4>
+            <p class="CV_sub"> LISTENING<span class="nivel1"> A2 </span>  </p>
+            <p class="CV_sub" style="padding-top: 15px"> WRITING <span class="nivel2"> B2 </span>  </p>
+            <p class="CV_sub" style="padding-top: 15px;"> SPEAKING<span class="nivel3"> B1 </span> </p>
+            <p class="CV_sub" style="padding-top:15px;"> READING <span class="nivel4"> B1 </span></p>
+      </div>
+          </div>
+    </section>
+    
+    <!-- PART 5 -->
+    <section>
+    <figure>  <img id="boneco" src="imagens/3-01.png" alt="A very close up photo of my face" width="1117px" height="643px"> </figure> 
+    
+
+
+
+    </section>
+    
+    <!-- PART 6 -->
+    <section id="FAQ'S">
+      <h3 style="border-top: solid 1px black; border-bottom: solid 1px black; text-align: center; "> FAQ's </h3>
+      <p class="QA_pergunta"> 1. When are you getting married? </p>
+      <p class="texto_FQA"> Hopefully never. </p>
+      <p class="QA_pergunta"> 2. Don't you have any friends?</p>
+      <p class="texto_FQA"> I know a lot of people that I like but I see them as temporary circles. 
+        <!--For example you have your work friends and your school friends but you only talk with to those circles in those envirements. --> 
+        <br>
+        Also I have myself and I'm the coolest bitch I know. </p>
+      <p class="QA_pergunta"> 3. How are you?</p>
+      <p class="texto_FQA"> Stressed. </p>
+      <p class="QA_pergunta"> 4. Where's your boyfriend?</p>
+      <p class="texto_FQA"> At home?! (I don't know why but people ask me this very often) </p>
+      <p class="QA_pergunta"> 5. Are you really cool and fun?</p>
+      <p class="texto_FQA">Read the room. </p>
+    </section>
+    <p class="bottom"></p>
+    
+    <!-- PART 7 -->
+    <section class="contactos">
+      <p class="redes"> marciaelvaslopes@hotmail.com</p>
+      <p class="redes"> <a href="https://www.behance.net/iamciamf">behance</a></p>
+      <p class="redes"> <a href="https://www.instagram.com/iamc.iamf/">instagram</a></p>
+      <p class="redes"> <a href="https://open.spotify.com/user/gin-senpai?si=279249598be24f07"> spotify </a></p>
+    </section>
+    <p class="bottom"></p>
+  </article>
+  
+  <!-- footer -->
+  
+  <footer class="cool">
+    <p id="quote"> * I AM CRINGE BUT I AM FREE *</p>
+  </footer>
+</div>
+</body>
+</html>
